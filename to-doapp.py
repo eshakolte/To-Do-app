@@ -39,7 +39,7 @@ def dctask():
 
 def savel():
     fname = filedialog.asksaveasfilename(
-        initialdir = "C:\\Users\\Sunny Singh\\PycharmProjects\\guiproject",
+        initialdir = "C:\\Users\\Esha Kolte\\PycharmProjects\\guiproject",
         title = "Save File",
         filetypes = (("Dat Files","*.dat") , ("All  Files", "*.*"))
     )
@@ -63,7 +63,7 @@ def savel():
     pickle.dump(stuf, ofile)
 
 def openl():
-    fname = filedialog.askopenfilename(initialdir = "C:\\Users\\Sunny Singh\\PycharmProjects\\guiproject",
+    fname = filedialog.askopenfilename(initialdir = "C:\\Users\\Esha Kolte\\PycharmProjects\\guiproject",
         title = "Open File",
         filetypes = (("Dat Files","*.dat") , ("All  Files", "*.*")))
     if fname:
